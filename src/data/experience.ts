@@ -1,0 +1,165 @@
+import { ExperienceItem } from '../types/portfolio';
+
+export const internshipsData: ExperienceItem[] = [
+  {
+    id: 'stage-Master-Class',
+    title: 'Stagiaire Développeur Full Stack',
+    company: 'Master Class',
+    type: 'stage',
+    typeLabel: 'Stage en entreprise',
+    duration: '3 mois',
+    period: 'avril 2026 - juin 2026',
+    location: 'Tunisie',
+    description:
+      "Stage pratique immersif de 3 mois axé sur le développement d'applications web modernes et la mise en œuvre de bonnes pratiques de développement logiciel et de sécurité du code.",
+    highlights: [
+      'Conception et développement de composants frontend réactifs avec React et Tailwind CSS',
+      'Développement d’APIs REST modulaires et sécurisées avec Node.js et Express',
+      'Intégration d’une base de données relationnelle et optimisation des requêtes',
+      'Participation aux revues de code et mise en application des principes de sécurité web',
+    ],
+    skills: ['React', 'Node.js', 'Express', 'PostgreSQL','MongoDB', 'Git', 'Clean Architecture'],
+    badgeColor: 'border-cyan-500/30 text-cyan-400 bg-cyan-500/10',
+  },
+  {
+    id: 'Stage-Eklectic',
+    title: 'Stagiaire Développeur Mobile',
+    company: 'Eklectic',
+    type: 'stage',
+    typeLabel: 'Stage en entreprise',
+    duration: '1 mois',
+    period: 'Juillet 2026',
+    location: 'Tunisie',
+    description:
+      "Stage de perfectionnement technique de 1 mois centré sur l'intégration d'interfaces utilisateur interactives et le développement de prototypes mobiles.",
+    highlights: [
+      'Intégration d’interfaces graphiques responsives et ergonomiques',
+      'Consommation et tests d’APIs tierces avec Postman',
+      'Découverte et prototypage de fonctionnalités d’une application mobile hybride',
+      'Collaboration au sein d’une équipe agile avec sprints hebdomadaires',
+    ],
+    skills: ['JavaScript', 'React Native', 'CSS3 / Tailwind', 'REST APIs', 'UI/UX Design'],
+    badgeColor: 'border-blue-500/30 text-blue-400 bg-blue-500/10',
+  },
+  {
+    id: 'stage-sages-sndp',
+    title: 'Stagiaire Développeur Full Stack & Sécurité des Données',
+    company: 'Sages - filiale de la Société Nationale de Distribution des Pétroles (SNDP)',
+    type: 'stage',
+    typeLabel: 'Stage en entreprise',
+    duration: '1 mois',
+    period: 'aout 2026',
+    location: 'Tunisie',
+    description:
+      "Stage de découverte et de développement au sein de SAGES, filiale de la Société Nationale de Distribution des Pétroles (SNDP), axé sur la gestion des flux de données et la sécurisation des accès.",
+    highlights: [
+  'Conception et développement d’une plateforme web SAGES dédiée au stockage et à la centralisation de l’ensemble des données',
+  'Mise en place de fonctionnalités de gestion, d’organisation et de consultation des données',
+  'Conception d’interfaces intuitives et de formulaires de saisie pour faciliter la gestion des informations (gestion de patremoines, gestion de stocks, gestion de flux, etc.)',
+  'Mise en place de mécanismes de sécurisation des accès utilisateurs et de traçabilité des opérations',
+  'Documentation technique et rédaction de guides d’utilisation de la plateforme',
+],
+    skills: ['SQL / Bases de données','laravel', 'Sécurité des données', 'Backend Development', 'Analyse fonctionnelle'],
+    badgeColor: 'border-emerald-500/30 text-emerald-400 bg-emerald-500/10',
+  },
+];
+
+export const trainingsData: ExperienceItem[] = [
+  {
+    id: 'formation-fullstack-1',
+    title: 'Formation Avancée Développement Full Stack Web',
+    company: 'Formation Professionnelle Certifiante',
+    type: 'formation',
+    typeLabel: 'Formation & Certification',
+    duration: 'Certifiée',
+    period: '2025 - 2026',
+    location: 'En ligne / Hybride',
+    description:
+      "Formation intensive approfondie couvrant l'architecture moderne des applications web complètes, de la conception UI à la scalabilité du backend.",
+    highlights: [
+      'Maîtrise de l’écosystème React, Next.js, TypeScript et gestion d’état avancée',
+      'Conception d’architectures backend résilientes (Microservices, REST, Authentification JWT/OAuth)',
+      'Déploiement continu (CI/CD), conteneurisation Docker et hébergement cloud',
+    ],
+    skills: ['React', 'Next.js', 'Node.js', 'TypeScript', 'RESTful APIs'],
+    badgeColor: 'border-violet-500/30 text-violet-400 bg-violet-500/10',
+  },
+  {
+    id: 'formation-fullstack-2',
+    title: 'Formation Développement Full Stack Mobile & Architectures API',
+    company: 'Formation Professionnelle Certifiante',
+    type: 'formation',
+    typeLabel: 'Formation & Certification',
+    duration: 'Certifiée',
+    period: '2026',
+    location: 'En ligne',
+    description:
+      "Programme spécialisé dans la conception d'applications mobiles cross-platform et l'interfaçage fluide avec des backends haute performance.",
+    highlights: [
+      'Développement d’applications mobiles iOS & Android multiplateformes',
+      'Gestion du cache, mode déconnecté (offline-first) et synchronisation des données',
+      'Optimisation des performances graphiques et sécurité du stockage local',
+    ],
+    skills: ['React Native', 'Mobile Security', 'State Management', 'WebSockets', 'GraphQL / REST'],
+    badgeColor: 'border-indigo-500/30 text-indigo-400 bg-indigo-500/10',
+  },
+  {
+    id: 'formation-cybersec',
+    title: 'Formation Cybersécurité (comptia security+)',
+    company: 'Académie Cybersécurité & Sécurité Offensive',
+    type: 'formation',
+    typeLabel: 'Formation Spécialisée',
+    duration: 'Certifiée',
+    period: '2026',
+    location: 'Gomycode, Tunisie & En ligne',
+    description:
+      "Spécialisation poussée en sécurité offensive et tests d'intrusion web selon les méthodologies reconnues (OWASP Top 10, PTES).",
+    highlights: [
+  'Étude des fondamentaux de la cybersécurité : menaces, vulnérabilités, risques et mécanismes de protection',
+  'Apprentissage des principes de sécurité des réseaux, des systèmes et des applications web',
+  'Étude des vulnérabilités web courantes : XSS, injection SQL, CSRF, SSRF et IDOR',
+  'Découverte des outils de sécurité et d’analyse réseau : Nmap, Wireshark, Burp Suite et Metasploit',
+  'Étude des mécanismes de contrôle d’accès, d’authentification, de chiffrement et de gestion des incidents',
+  'Sensibilisation aux bonnes pratiques de sécurisation et à la rédaction de recommandations de remédiation',
+],
+    skills: [
+  'Cybersecurity Fundamentals',
+  'Network Security',
+  'OWASP Top 10',
+  'Web Application Security',
+  'Ethical Hacking Fundamentals',
+  'Burp Suite',
+  'Nmap',
+  'Wireshark',
+  'Linux',
+  'Vulnerability Assessment',
+  'Access Control',
+  'Incident Response',
+],
+    badgeColor: 'border-red-500/30 text-red-400 bg-red-500/10',
+  },
+];
+
+export const educationData: ExperienceItem[] = [
+  {
+    id: 'education-islai',
+    title: 'licence en Génie Logiciel et Sciences Informatiques (2ème année)',
+    company: "ISLAI Béja (Institut Supérieur des Langues Appliquées et d'Informatique de Béja)",
+    type: 'education',
+    typeLabel: 'Formation Académique',
+    duration: '2ème année en cours',
+    period: '2025 - 2028 - Présent',
+    location: 'Béja, Tunisie',
+    description:
+      "Cursus universitaire d'excellence focalisé sur l'ingénierie logicielle, les structures de données, l'algorithmique avancée, les systèmes d'exploitation, l'architecture des ordinateurs et les réseaux informatiques.",
+    highlights: [
+      'Génie logiciel, modélisation UML et patrons de conception (Design Patterns)',
+      'Algorithmique avancée, structures de données et complexité',
+      'Bases de données relationnelles (SGBD) et normalisation',
+      'Fondements des réseaux TCP/IP et sécurité des systèmes',
+      'Préparation active au Projet de Fin d’Année (Stage PFA)',
+    ],
+    skills: ['Génie Logiciel', 'Algorithmique', 'UML', 'Réseaux', 'SGBD', 'Systèmes d’exploitation','Linux', 'Sécurité Informatique etc.'],
+    badgeColor: 'border-amber-500/30 text-amber-400 bg-amber-500/10',
+  },
+];

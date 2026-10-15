@@ -1,0 +1,22 @@
+{
+    id: 'project-3',
+    title: "Scanner d'Audit Web & Toolkit Cybersécurité",
+    category: 'cybersecurity',
+    categoryLabel: 'Cybersécurité',
+    subtitle: 'Analyseur de surface d’attaque web et vérificateur de conformité de sécurité',
+    description:
+      "Outil interactif d'analyse automatisée de sécurité web destiné aux développeurs et auditeurs. Il évalue la posture de sécurité d'un site cible en inspectant les en-têtes HTTP, les politiques de sécurité (CSP, HSTS), les certificats SSL/TLS, et génère un rapport de vulnérabilité clair avec recommandations de remédiation.",
+    image: '/projects/project-3.png',
+    videoUrl: '/projects/project-3.mp4',
+    tags: ['FastAPI', 'Python', 'React', 'Burp Suite', 'OWASP Top 10', 'Penetration Testing'],
+    features: [
+      'Audit automatisé des en-têtes HTTP de sécurité (Content-Security-Policy, X-Frame-Options, CORS)',
+      'Détection des mauvaises configurations courantes et des formulaires vulnérables aux injections',
+      'Génération d’un score de sécurité global et cartographie visuelle des risques identifiés',
+      'Export complet de rapports d’audit au format PDF / JSON pour les équipes techniques',
+      'Guide de remédiation interactif avec exemples de code sécurisé prêt à l’emploi',
+    ],
+    githubUrl: 'https://github.com/MohamedAzizOmrani/web-vuln-scanner',
+    liveUrl: 'https://demo-security.example.com',
+    featured: true,
+  },
