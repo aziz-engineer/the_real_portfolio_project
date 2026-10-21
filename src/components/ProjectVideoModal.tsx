@@ -152,6 +152,17 @@ export const ProjectVideoModal: React.FC<ProjectVideoModalProps> = ({
                     ? 'La vidéo de démonstration ne peut pas être lue pour le moment.'
                     : 'La vidéo de démonstration n’est pas encore disponible.'}
                 </output>
+                {project.videoUrl && (
+                  <a
+                    href={project.videoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="relative z-10 inline-flex items-center gap-2 rounded-xl bg-cyan-500 px-4 py-2.5 text-xs font-semibold text-slate-950 transition-colors hover:bg-cyan-400"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    Ouvrir la vidéo
+                  </a>
+                )}
               </div>
             )}
           </div>
