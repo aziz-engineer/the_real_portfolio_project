@@ -7,7 +7,6 @@ import {
   ShieldCheck,
   Cpu,
   Terminal,
-  Lock,
 } from 'lucide-react';
 import { skillsData } from '../data/skills';
 

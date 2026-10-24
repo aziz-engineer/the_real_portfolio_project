@@ -31,6 +31,12 @@ export const ProjectVideoModal: React.FC<ProjectVideoModalProps> = ({
     document.body.style.overflow = 'hidden';
 
     const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        onClose();
+        return;
+      }
+
       if (e.key === 'Tab') {
         const focusableElements = dialogRef.current?.querySelectorAll<HTMLElement>(
           'a[href], button:not([disabled]), video[controls]',
